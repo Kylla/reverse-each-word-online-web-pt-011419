@@ -12,6 +12,6 @@ def reverse_each_word2(sentence2)
   words2 = sentence2.split
   newarray2 = []
   words2.collect do || sentence2.reverse.join(" ")
-  binding.pry
+  
   end
 end
