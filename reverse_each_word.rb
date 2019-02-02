@@ -10,5 +10,5 @@ end
 
 def reverse_each_word2(sentence2)
   second = []
-  sentence2.collect {|word| word.reverse}.join(" ")
+  .collect {|word| word.reverse}.join(" ")
   end
