@@ -9,6 +9,6 @@ newarray.join(" ")
 end
 
 def reverse_each_word2(sentence2)
-  words2
+  words2.split
   .collect {|word| word.reverse}.join(" ")
   end
